@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
 	<meta charset="utf-8">
-	<title>Document</title>
+	<title>Processo</title>
 </head>
+
 <body>
 
 	<script>
@@ -13,23 +15,47 @@
 
 		for (tabuada = 1; tabuada <= 10; tabuada ++){
 
-			document.write(
-				nma + " x " + tabuada "=" + num * tabuada + "</br>"
-				);
+			document.write( num + " x " + tabuada + "=" + num * tabuada + ); 
+			pularlinha();
 		}
 
 
+		function pulalinha(){
+			document.write("</br>")
+		}
 
 
+		function soma(num1,num2){
+			var somar = num1 + num2;
+			return somar;
+		}
+
+document.write(" A somatória dos valores é " + soma(9,9)); pularlinha();
+
+	function subtrai(num1, num2){
+			var subtrair = num1 - num2;
+			return subtrair;
+		}
+
+document.write(" A subtração dos valores é " + subtrai (18,9)); pulalinha();
+
+	function divide(num1, num2){
+			var dividir = num1 / num2;
+			return dividir;
+		}
+
+document.write(" A divisão dos valores é " + dividir (18,9)); pulalinha();
+
+	function multiplicar(num1, num2){
+			var multiplicacao = num1 * num2;
+			return multiplicacao;
+		}
+
+document.write(" A multiplicação dos valores é " + multiplicacao (2,9)); pulalinha();
 
 
-
-
-
-
-
-
-			</script>
+		</script>
+		
 
 	</body>
 	</html>
